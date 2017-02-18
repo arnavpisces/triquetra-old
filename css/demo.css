@@ -20,11 +20,12 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #47a3da;
+    color: #47484c;
+    background-color: #F8F7ED;
 }
 
 a {
-	color: #47a3da;
+	color: #47484c;
 	text-decoration: none;
 	outline: none;
 }
@@ -108,7 +109,7 @@ a:hover {
 
 .container > header nav a:hover:before {
 	content: attr(data-info);
-	color: #47a3da;
+	color: #F8F7ED;
 	position: absolute;
 	width: 600%;
 	top: 120%;
@@ -118,7 +119,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #47a3da;
+	background: #F8F7ED;
 }
 
 .bp-icon:after {
