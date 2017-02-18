@@ -267,6 +267,11 @@ span.nav-close:before {
 	right: 10px;
 	content: "\e604";
 }
+.slideshow li figure img {
+	width: auto;
+	margin: 0 auto;
+	max-width: 100%;
+}
 
 /* Example media queries (reduce number of columns and change slideshow layout) */
 
@@ -282,6 +287,7 @@ span.nav-close:before {
 		top: 0;
 		left: 0;
 		margin: 0;
+		overflow-y: scroll;
 	}
 
 	.slideshow li figure img {
@@ -305,11 +311,13 @@ span.nav-close:before {
 @media screen and (max-width: 35em) {
 	.grid li {
 		width: 50%;
+		overflow-y: scroll;
 	}
 }
 
 @media screen and (max-width: 24em) {
 	.grid li {
 		width: 100%;
+		overflow-y: scroll;
 	}
 }
