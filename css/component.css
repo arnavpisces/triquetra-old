@@ -13,7 +13,7 @@
 .sport {
 	font-weight: bold;
 	font-size: 200%;
-	margin-left: 30%;
+	margin-left: 34%;
 }
 
 .sport2 {
@@ -68,22 +68,31 @@
 
 .grid figure {
 	padding: 15px;
-	-webkit-transition: opacity 0.2s;
-	transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s, color 0.3s;
+	transition: opacity 0.2s, color 0.3s;
 }
-
+.grid figure:hover{
+	color:black;
+}
 .grid li:hover figure {
 	opacity: 0.7;
 }
 
 .grid figcaption {
-	background: #FDEBD0;
+	background: black;
 	padding: 25px;
-	transition: background 0.3s;
+	border:solid;
+	border-color: #F5B041;
+	-webkit-transition: background 0.3s, color 0.3s;
+	transition: background 0.3s, color 0.3s;
+}
+
+.grid figcaption:hover > h3{
+	color:black;
 }
 .grid figcaption:hover{
 	background:#F5B041;
-	color:#F8F7ED;
+	color:black;
 }
 /* Slideshow style */
 .slideshow {
