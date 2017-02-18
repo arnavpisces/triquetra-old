@@ -22,6 +22,12 @@
 	margin-left: 40%;
 }
 
+#about {
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 32%;
+}
+
 .grid-gallery ul {
 	list-style: none;
 	margin: 0;
@@ -306,6 +312,22 @@ span.nav-close:before {
 		display: none;
 	}
 
+	.sport {
+		margin-left: 16%;
+	}
+
+	.sport2 {
+		margin-left: 25%;
+	}
+
+	#sport3 {
+		margin-left: 35%;
+	}
+
+	#about {
+		margin-left: 18%;
+	}
+
 }
 
 @media screen and (max-width: 35em) {
@@ -313,6 +335,20 @@ span.nav-close:before {
 		width: 50%;
 		overflow-y: auto;
 	}
+		.sport {
+			margin-left: 16%;
+		}
+
+		.sport2 {
+			margin-left: 25%;
+		}
+
+		#about {
+			margin-left: 18%;
+		}
+			#sport3 {
+				margin-left: 35%;
+			}
 }
 
 @media screen and (max-width: 24em) {
@@ -320,4 +356,17 @@ span.nav-close:before {
 		width: 100%;
 		overflow-y: auto;
 	}
+		.sport {
+			margin-left: 16%;
+		}
+
+		.sport2 {
+			margin-left: 25%;
+		}
+		#about {
+			margin-left: 18%;
+		}
+			#sport3 {
+				margin-left: 35%;
+			}
 }
