@@ -20,6 +20,7 @@
 	font-weight: bold;
 	font-size: 200%;
 	margin-left: 40%;
+
 }
 
 .grid-gallery ul {
@@ -76,10 +77,14 @@
 }
 
 .grid figcaption {
-	background: #e4e4e4;
+	background: #FDEBD0;
 	padding: 25px;
+	transition: background 0.3s;
 }
-
+.grid figcaption:hover{
+	background:#F5B041;
+	color:#F8F7ED;
+}
 /* Slideshow style */
 .slideshow {
 	position: fixed;
