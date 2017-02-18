@@ -10,6 +10,18 @@
 } /* Made with http://icomoon.io/app */
 
 /* General style */
+.sport {
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 30%;
+}
+
+.sport2 {
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 40%;
+}
+
 .grid-gallery ul {
 	list-style: none;
 	margin: 0;
@@ -22,7 +34,9 @@
 
 .grid-gallery figure img {
 	display: block;
-	width: 100%;
+	width: 50%;
+	height: 50%;
+	margin-top: 20px;
 }
 
 .grid-gallery figcaption h3 {
@@ -120,6 +134,8 @@
 	left: 50%;
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
+	overflow-y: scroll;
+	background: #fff;
 }
 
 .slideshow li.show {
@@ -143,6 +159,7 @@
 	opacity: 0;
 	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
 	transition: opacity 0.3s, visibility 0s 0.3s;
+	overflow-y: scroll;
 }
 
 .slideshow figure {
@@ -150,7 +167,6 @@
 	height: 100%;
 	background: #fff;
 	border: 50px solid #fff;
-	overflow: hidden;
 }
 
 .slideshow figcaption {
