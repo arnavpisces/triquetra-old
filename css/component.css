@@ -134,7 +134,7 @@
 	left: 50%;
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
-	overflow-y: scroll;
+	overflow-y: auto;
 	background: #fff;
 }
 
@@ -159,7 +159,7 @@
 	opacity: 0;
 	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
 	transition: opacity 0.3s, visibility 0s 0.3s;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .slideshow figure {
@@ -287,7 +287,7 @@ span.nav-close:before {
 		top: 0;
 		left: 0;
 		margin: 0;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 
 	.slideshow li figure img {
@@ -311,13 +311,13 @@ span.nav-close:before {
 @media screen and (max-width: 35em) {
 	.grid li {
 		width: 50%;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 }
 
 @media screen and (max-width: 24em) {
 	.grid li {
 		width: 100%;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 }
