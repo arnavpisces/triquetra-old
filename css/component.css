@@ -150,6 +150,7 @@
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 	background: #fff;
 }
 
@@ -175,6 +176,7 @@
 	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
 	transition: opacity 0.3s, visibility 0s 0.3s;
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 .slideshow figure {
