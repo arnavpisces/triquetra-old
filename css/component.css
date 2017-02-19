@@ -10,18 +10,18 @@
 } /* Made with http://icomoon.io/app */
 
 /* General style */
-.sport {
+/*.sport {
 	font-weight: bold;
 	font-size: 200%;
 	margin-left: 34%;
-}
+}*/
 
-.sport2 {
+/*.sport2 {
 	font-weight: bold;
 	font-size: 200%;
 	margin-left: 40%;
 
-}
+}*/
 
 #about {
 	font-weight: bold;
@@ -326,12 +326,11 @@
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
 	overflow-y: auto;
-<<<<<<< HEAD
 	background: black;
-=======
+
 	-webkit-overflow-scrolling: touch;
 	background: #fff;
->>>>>>> 9e1134fadee54c3722c1566a0b59ca45f66c37fd
+
 }
 
 .slideshow li.show {
@@ -401,7 +400,7 @@
 	top: 0;
 	right: 0;
 	padding: 0.5em 1em;
-	color: #31373a;
+	color: #F5B041;
 }
 
 .icon:before,
@@ -504,9 +503,12 @@ span.nav-close:before {
 	}
 
 	.sport {
-		margin-left: 16%;
-	}
+		margin-left: 25%;
 
+	}
+	.foot{
+		text-align: center;
+	}
 	.sport2 {
 		margin-left: 25%;
 	}

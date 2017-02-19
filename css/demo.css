@@ -52,7 +52,12 @@ h3{
 
 }
 h4{
-	color:#F39C12;
+	color:#273746;
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+	background-color: #F39C12;
+	
 }
 
 .container > header {
