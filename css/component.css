@@ -90,7 +90,7 @@
 	color:black;
 }
 .grid li:hover figure {
-	opacity: 0.7;
+	
 }
 
 .grid figcaption{
@@ -114,133 +114,160 @@
 	visibility: hidden;
 }
 .grid figcaption:hover >.basketball:before{
-	content: attr(bas-uni);
-	font-family: FontAwesome;
+	content: "\f108";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
 	position: absolute;
 	top:0;
-	margin-left:29%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 .grid figcaption:hover >.chess{
 	visibility: hidden;
+
 }
 .grid figcaption:hover >.chess:before{
-	content: attr(chess-uni);
-	font-family: FontAwesome;
+	content: "\f101";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
 	position: absolute;
 	top:0;
-	margin-left:29%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+
+	border:solid;
+	border-color: transparent;
 }
 .grid figcaption:hover >.football{
 	visibility: hidden;
+	
 }
 .grid figcaption:hover >.football:before{
-	content: attr(foot-uni);
-	font-family: FontAwesome;
+	content: "\f105";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
 	position: absolute;
 	top:0;
-	margin-left:29%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
+	
 }
 .grid figcaption:hover >.tennis{
 	visibility: hidden;
 }
 .grid figcaption:hover >.tennis:before{
-	content: attr(tennis-uni);
-	font-family: FontAwesome;
+	content:"\f100";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
 	position: absolute;
 	top:0;
-	margin-left:29%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 .grid figcaption:hover >.tt{
 	visibility: hidden;
 }
 .grid figcaption:hover >.tt:before{
-	content: '\1f3d3';
-	font-family: FontAwesome;
+	content: "\f104";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
 	position: absolute;
 	top:0;
-	margin-left:22%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 
 .grid figcaption:hover >.volleyball{
 	visibility: hidden;
 }
 .grid figcaption:hover >.volleyball:before{
-	content: '\1f3d0';
-	font-family: FontAwesome;
+	content: "\f109";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
-	text-align:center;
 	position: absolute;
 	top:0;
-	margin-left:22%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 
 .grid figcaption:hover >.pool{
 	visibility: hidden;
 }
 .grid figcaption:hover >.pool:before{
-	content: attr(pool-uni);
-	font-family: FontAwesome;
+	content: "\f106";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
-	text-align:center;
 	position: absolute;
 	top:0;
-	margin-left:22%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 .grid figcaption:hover >.powerlift{
 	visibility: hidden;
 }
 .grid figcaption:hover >.powerlift:before{
-	content: attr(power-uni);
-	font-family: FontAwesome;
+	content: "\f103";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
-	text-align:center;
 	position: absolute;
 	top:0;
-	margin-left:22%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 .grid figcaption:hover >.kabaddi{
 	visibility: hidden;
 }
 .grid figcaption:hover >.kabaddi:before{
-	content: attr(kabaddi-uni);
-	font-family: FontAwesome;
+	content: "\f107";
+	font-family: Flaticon;
 	color:black;
 	visibility: visible;
 	display: block;
-	text-align:center;
 	position: absolute;
 	top:0;
-	margin-left:22%; 
+	position: absolute;
 	font-size: 4em;
+	margin-left: 26%;
+	border:solid;
+	border-color: transparent;
 }
 
 
@@ -335,8 +362,8 @@
 .slideshow figure {
 	width: 100%;
 	height: 100%;
-	background: black;
-	border: 50px solid black;
+	background: white;
+	border: 50px solid white;
 }
 
 .slideshow figcaption {

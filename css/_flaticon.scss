@@ -1,0 +1,59 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/02/2017 12:45
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-ball:before { content: "\f100"; }
+.flaticon-chess-knight:before { content: "\f101"; }
+.flaticon-cricket-equipment:before { content: "\f102"; }
+.flaticon-dumbbell-lifter:before { content: "\f103"; }
+.flaticon-game:before { content: "\f104"; }
+.flaticon-material:before { content: "\f105"; }
+.flaticon-pool-eight-ball:before { content: "\f106"; }
+.flaticon-sport:before { content: "\f107"; }
+.flaticon-tool:before { content: "\f108"; }
+.flaticon-volleyball:before { content: "\f109"; }
+    
+    $font-Flaticon-ball: "\f100";
+    $font-Flaticon-chess-knight: "\f101";
+    $font-Flaticon-cricket-equipment: "\f102";
+    $font-Flaticon-dumbbell-lifter: "\f103";
+    $font-Flaticon-game: "\f104";
+    $font-Flaticon-material: "\f105";
+    $font-Flaticon-pool-eight-ball: "\f106";
+    $font-Flaticon-sport: "\f107";
+    $font-Flaticon-tool: "\f108";
+    $font-Flaticon-volleyball: "\f109";
