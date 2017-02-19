@@ -23,6 +23,21 @@
 
 }
 
+#about {
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 32%;
+}
+
+#gallery {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
 .grid-gallery ul {
 	list-style: none;
 	margin: 0;
@@ -284,7 +299,12 @@
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
 	overflow-y: auto;
+<<<<<<< HEAD
 	background: black;
+=======
+	-webkit-overflow-scrolling: touch;
+	background: #fff;
+>>>>>>> 9e1134fadee54c3722c1566a0b59ca45f66c37fd
 }
 
 .slideshow li.show {
@@ -309,6 +329,7 @@
 	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
 	transition: opacity 0.3s, visibility 0s 0.3s;
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 .slideshow figure {
@@ -455,6 +476,22 @@ span.nav-close:before {
 		display: none;
 	}
 
+	.sport {
+		margin-left: 16%;
+	}
+
+	.sport2 {
+		margin-left: 25%;
+	}
+
+	#sport3 {
+		margin-left: 35%;
+	}
+
+	#about {
+		margin-left: 18%;
+	}
+
 }
 
 @media screen and (max-width: 35em) {
@@ -462,6 +499,20 @@ span.nav-close:before {
 		width: 50%;
 		overflow-y: auto;
 	}
+		.sport {
+			margin-left: 16%;
+		}
+
+		.sport2 {
+			margin-left: 25%;
+		}
+
+		#about {
+			margin-left: 18%;
+		}
+			#sport3 {
+				margin-left: 35%;
+			}
 }
 
 @media screen and (max-width: 24em) {
@@ -469,4 +520,17 @@ span.nav-close:before {
 		width: 100%;
 		overflow-y: auto;
 	}
+		.sport {
+			margin-left: 16%;
+		}
+
+		.sport2 {
+			margin-left: 25%;
+		}
+		#about {
+			margin-left: 18%;
+		}
+			#sport3 {
+				margin-left: 35%;
+			}
 }
